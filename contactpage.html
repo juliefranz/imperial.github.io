@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="logoo.jpg" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <style>
+      * {
+        font-family: "Lato";
+        color: white;
+        text-shadow: 1px 1px 5px rgb(71, 49, 49);
+      }
+      body {
+        background: linear-gradient(rgba(83, 76, 76, 0.5), rgba(0, 0, 0, 0.5)), url(https://i.ytimg.com/vi/pegZ1w5W9N4/maxresdefault.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      .highlight {
+        background-color: #000317; /* Bootstrap's warning color */
+        padding: 10px;
+        border-radius: 5px;
+      }
+
+      .nav a li {
+        transition: 0.5s;
+      }
+      .nav a li:hover {
+        background-color: rgba(144, 110, 110, 0.5);
+      }
+      .contact-section {
+        background-color: #000000;
+        padding: 20px;
+        border-radius: 10px;
+      }
+      .photo-grid {
+        background-color: rgba(0, 0, 0, 0.7); /* Semi-dark background with 70% opacity */
+        padding: 20px;
+        border-radius: 10px;
+      }
+      .photo-grid img {
+        max-width: 100%;
+        height: auto;
+        border: 1px solid #333; /* Dark border color */
+        margin: 5px;
+      }
+      .contact-button:hover {
+        background-color: #000307;
+        color: #fff;
+      }
+
+      .styled-button {
+        background-color: #08060b;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+        margin: 10px;
+      }
+      .custom-button {
+        display: inline-block;
+        padding: 10px 20px; /* Adjust the padding for button length */
+        background-color: #000; /* Black background */
+        color: #fff; /* White text color */
+        border: none;
+        border-radius: 5px;
+        transition: transform 0.3s;
+      }
+      .custom-button:hover {
+        transform: translateY(-5px); /* Floating hovering effect */
+      }
+
+      .styled-button:hover {
+        background-color: #333639;
+        .video-container {
+          position: relative;
+          padding-bottom: 56.25%; /* 16:9 aspect ratio for responsive video */
+          padding-top: 30px;
+          height: 0;
+          overflow: hidden;
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .video-container iframe {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+        }
+      }
+    </style>
+    <title>J U L I E - F R A N Z</title>
+  </head>
+  <body>
+    <div class="container-fluid" style="min-height: 100vh">
+      <div class="row bg-black bg-opacity-75 d-flex align-items-center sticky-top" style="height: 70px">
+        <div class="col-sm-6 p-1 h-100">
+          <a href="#" class="h-100">
+            <img class="img-fluid h-100" src="1.png" alt="logo" />
+          </a>
+        </div>
+        <div class="col-sm-6 h-100">
+          <ul class="nav mb-0 d-flex justify-content-around align-items-center h-100">
+            <a class="text-decoration-none h-100" href="main.html">
+              <li class="list-unstyled text-white d-flex align-items-center pe-4 ps-4 h-100 fw-bold">HOME</li>
+            </a>
+            <a class="text-decoration-none h-100" href="aboutpage.html"
+              ><li class="list-unstyled text-white d-flex align-items-center pe-4 ps-4 h-100 fw-bold">ABOUT</li></a
+            >
+          </ul>
+        </div>
+      </div>
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="video-container" style="background: rgba(255, 255, 255, 0.2); padding: 20px">
+              <iframe
+                src="https://i.huffpost.com/gadgets/slideshows/233020/slide_233020_1103327_free.gif"
+                frameborder="0"
+                allowfullscreen
+                allow="autoplay;"
+                width="1200"
+                height="800"
+              ></iframe>
+
+              <center>
+                <div>
+                  <h3>E X C I T E D</h3>
+                </div>
+                <div>
+                  <h3>O R</h3>
+                </div>
+                <div>
+                  <h3>R E A D Y</h3>
+                </div>
+              </center>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <br />
+
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-6">
+            <div class="card contact-section">
+              <div class="card-body">
+                <section id="tab4" class="contact text-center">
+                  <h2>Contact Information</h2>
+                  <p style="float: left">Want to know me more? Click the image</p>
+                  <div class="container">
+                    <div class="row justify-content-center">
+                      <div class="col-6 text-center">
+                        <a href="https://www.facebook.com/juliefranz.imperial.7">
+                          <img src="1.png" alt="Icon Image" class="img-fluid" />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+    <br />
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-6 offset-md-3">
+          <div class="highlight">
+            <center>
+              <h2>Contact Me</h2>
+              <p>Inquire through sending me a message</p>
+            </center>
+          </div>
+          <form>
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" required />
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number:</label>
+              <input type="tel" class="form-control" id="phone" name="phone" placeholder="Your Phone Number" />
+            </div>
+            <div class="form-group">
+              <label for="message">Message:</label>
+              <textarea class="form-control" id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
+            </div>
+            <div class="container mt-5">
+              <div class="row">
+                <div class="col-md-4 offset-md-4">
+                  <center>
+                    <button type="submit" class="custom-button">Submit</button>
+                  </center>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <br />
+    <br />
+    <br />
+    <center>
+      <p class="text-uppercase fw-bolder" style="font-size: 1rem; line-height: 1rem">INSPIRATIONAL WEBSITES AND ACADEMY</p>
+    </center>
+    <br />
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <a href="https://www.udacity.com">
+            <button class="styled-button">U d a c i t y</button>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="https://www.coursera.org">
+            <button class="styled-button">C o u r s e r a</button>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="https://www.linkedin.com/learning">
+            <button class="styled-button">L i n k e d I n</button>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="https://teamtreehouse.com">
+            <button class="styled-button">T r e e h o u s e</button>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="https://www.edx.org">
+            <button class="styled-button">e d X - e d x - Edx :</button>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href=" https://www.w3schools.com">
+            <button class="styled-button">W 3 S c h o o l s</button>
+          </a>
+        </div>
+      </div>
+    </div>
+    <br />
+    <br />
+    <br />
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <div class="container">
+      <section>
+        <center>
+          <p>
+            <!-- Your inspiring poem/message here -->
+          </p>
+        </center>
+      </section>
+    </div>
+
+    <div class="container">
+      <section>
+        <center>
+          <div>
+            <p>
+              <span class="fw-bold">Embarking on the Journey of Web Development </span><br />
+              In today's digital age, the world of technology is constantly evolving, and it has become increasingly evident that web
+              development is at the forefront of this transformation. The art and science of creating websites and web applications have not
+              only revolutionized the way we access information but have also opened up a world of opportunities for those who seek to
+              master this skill. Learning web development is not merely a pursuit of knowledge; it is an investment in the future. Web
+              development encompasses a wide array of skills, ranging from front-end development, which focuses on the visual and
+              interactive aspects of websites, to back-end development, which involves server-side programming and databases. The full-stack
+              developer is the one who masters both, becoming a versatile and sought-after professional. One of the most compelling aspects
+              of web development is its accessibility. Unlike many other technical fields, you don't need an advanced degree or a
+              significant financial investment to get started.
+            </p>
+          </div>
+          <div>
+            <p>
+              All you need is a computer, an internet connection, and a curious mind. There are countless free and paid resources available
+              online, making it possible for anyone with dedication and determination to learn web development. The process of learning web
+              development can be both challenging and rewarding. It requires problem-solving skills, attention to detail, and the ability to
+              think both logically and creatively. The constant evolution of web technologies means that developers must stay up to date
+              with the latest trends and tools. This continuous learning process keeps the journey exciting and ever-evolving. Web
+              development also offers a tremendous sense of accomplishment. As a developer, you have the power to turn a blank canvas into a
+              fully functional website or web application.
+            </p>
+          </div>
+          <div>
+            <p>
+              The ability to see your work come to life is deeply gratifying, and the impact of your creations can be far-reaching. From
+              personal blogs to e-commerce sites and social media platforms, web developers play a crucial role in shaping the digital
+              world. The demand for web developers is on the rise, with businesses and organizations of all sizes recognizing the importance
+              of a strong online presence. This high demand translates into numerous job opportunities and the potential for a rewarding
+              career. Whether you choose to work for a tech giant, a startup, or as a freelancer, the skills you acquire in web development
+              are highly transferable and can open doors to diverse industries. Moreover, web development allows for remote work and
+              flexible schedules, making it an attractive choice for those who value work-life balance. It's an ideal field for
+              self-starters and individuals who are passionate about creating, problem-solving, and staying at the cutting edge of
+              technology. In conclusion, the journey of learning web development is a path to empowerment, creativity, and endless
+              possibilities. It's an investment in personal and professional growth, an opportunity to contribute to the digital landscape,
+              and a gateway to a dynamic and in-demand career. As technology continues to advance, web development remains an exciting and
+              essential field that beckons those who are eager to learn, create, and shape the digital future. So, why wait? Take your first
+              step on this remarkable journey and embark on a life-changing adventure into the world of web development.
+            </p>
+          </div>
+          <br />
+          <br />
+          <br />
+          <center>
+            <p class="text-uppercase fw-bolder" style="font-size: 1rem; line-height: 1rem">MY PERSONAL INSPIRATION</p>
+          </center>
+
+          <div class="container mt-5">
+            <div class="row">
+              <div class="col-md-4 photo-grid">
+                <img src="p1.jpg" alt="Image 1" />
+              </div>
+              <div class="col-md-4 photo-grid">
+                <img src="p2.jpg" alt="Image 2" />
+              </div>
+              <div class="col-md-4 photo-grid">
+                <img src="p3.jpg" alt="Image 3" />
+              </div>
+              <div class="col-md-4 photo-grid">
+                <img src="p4.jpg" alt="Image 4" />
+              </div>
+              <div class="col-md-4 photo-grid">
+                <img src="p5.jpg" alt="Image 5" />
+              </div>
+              <div class="col-md-4 photo-grid">
+                <img src="p6.jpg" alt="Image 6" />
+              </div>
+              <div class="col-md-4 photo-grid">
+                <img src="p7.jpg" alt="Image 7" />
+              </div>
+              <div class="col-md-4 photo-grid">
+                <img src="p8.jpg" alt="Image 8" />
+              </div>
+              <div class="col-md-4 photo-grid">
+                <img src="p9.jpg" alt="Image 9" />
+              </div>
+            </div>
+          </div>
+        </center>
+      </section>
+    </div>
+    <!-- Footer -->
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h3>Contact Me</h3>
+            <p>If you have any questions, please feel free to contact me:</p>
+          </div>
+          <div class="col-md-6">
+            <h3>Follow Me</h3>
+            <p>https://web.facebook.com/juliefranz.imperial.7</p>
+            <ul class="list-unstyled list-inline">
+              <li class="list-inline-item">
+                <a href="https://web.facebook.com/juliefranz.imperial.7" class="text-white">Facebook</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="juliefranzlosbanos.imperial@bicol-u.edu.ph" class="text-white">Gmail</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid bg-black text-white p-2 text-center">
+        <p>&copy; JULIE FRANZ IMPERIAL. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>

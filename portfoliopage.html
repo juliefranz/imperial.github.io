@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="logoo.jpg" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <style>
+      * {
+        font-family: "Lato";
+        color: white;
+        text-shadow: 1px 1px 5px rgb(71, 49, 49);
+      }
+      body {
+        background: linear-gradient(rgba(83, 76, 76, 0.5), rgba(105, 40, 40, 0.5)),
+          url(https://i.pinimg.com/originals/a7/d4/67/a7d467147102fd8811498b064811a1d5.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      .nav a li {
+        transition: 0.5s;
+      }
+      .nav a li:hover {
+        background-color: rgba(144, 110, 110, 0.5);
+      }
+      .floating-btn {
+        transition: transform 0.3s;
+        margin-left: 20px;
+      }
+      .floating-btn:hover {
+        transform: translateY(-5px);
+      }
+      .bigger-btn {
+        font-size: 20px;
+      }
+    </style>
+    <title>J U L I E - F R A N Z</title>
+  </head>
+  <body>
+    <div class="container-fluid" style="min-height: 3vh">
+      <div class="row bg-black bg-opacity-75 d-flex align-items-center sticky-top" style="height: 70px">
+        <div class="col-sm-6 p-1 h-100">
+          <a href="#" class="h-100">
+            <img class="img-fluid h-100" src="1.png" alt="logo" />
+          </a>
+        </div>
+        <div class="col-sm-6 h-100">
+          <ul class="nav mb-0 d-flex justify-content-around align-items-center h-100">
+            <a class="text-decoration-none h-100" href="aboutpage.html"
+              ><li class="list-unstyled text-white d-flex align-items-center pe-4 ps-4 h-100 fw-bold">ABOUT</li></a
+            >
+
+            <a class="text-decoration-none h-100" href="contactpage.html"
+              ><li class="list-unstyled text-white d-flex align-items-center pe-4 ps-4 h-100 fw-bold">CONTACT</li></a
+            >
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="float-right">
+            <!-- Add the floating effect class to Bootstrap buttons, make them bigger, and link to other HTML files -->
+            <a href="extrapage.html" class="btn btn-primary floating-btn bigger-btn">MY PROJECTS</a>
+            <a href="main.html" class="btn btn-secondary floating-btn bigger-btn">BACK TO HOME PAGE</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      // Add JavaScript to handle click effects
+      const buttons = document.querySelectorAll(".floating-btn");
+      buttons.forEach((button) => {
+        button.addEventListener("click", () => {
+          button.style.display = "none";
+        });
+      });
+    </script>
+    <br />
+    <br />
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 offset-md-2">
+          <div class="bg-dark text-white p-4 rounded" style="background-color: rgba(0, 0, 0, 0.7)">
+            <img src="2.png".jpg" class="img-fluid" alt="Big Image" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+    <br />
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 offset-md-2">
+          <div class="bg-dark text-white p-4 rounded" style="background-color: rgba(0, 0, 0, 0.7)">
+            <img src="3.png".jpg" class="img-fluid" alt="Big Image" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <section>
+        <div class="col-md-7 offset-md-4">
+          <center>
+            <p>
+              <span class="fw-bold">Inspiring Messsage for Web Developers</span><br />
+              In the vast landscape of the digital realm, web developers are the architects, builders, and visionaries. They wield their
+              keyboards and lines of code like magic wands, shaping the virtual world around us. With every project they undertake, they
+              embark on a journey to create, innovate, and inspire. They are the unsung heroes of the digital age, and their work shapes the
+              future.<br /><br />
+              1. Building Bridges Across Boundaries: Web developers are bridge builders in a world connected by invisible threads. They
+              craft the virtual pathways that allow ideas, information, and communities to transcend borders. Their work is an act of
+              bringing people together, fostering collaboration, and breaking down barriers. With every website or application they create,
+              they unite individuals, regardless of their geographical locations. <br /><br />2. The Alchemy of Innovation: Web developers
+              are modern-day alchemists. They take raw materials in the form of code and turn them into interactive, dynamic, and beautiful
+              experiences. They transform mere concepts into functioning digital marvels. Whether it's a sleek website, a powerful app, or a
+              cutting-edge feature, they breathe life into ideas. Their innovative spirit is the driving force behind technological
+              progress. <br />3. Problem Solvers Extraordinaire: Every web developer knows the thrill of solving complex puzzles and
+              overcoming challenges. They face coding conundrums head-on, finding elegant solutions that seem to defy the laws of logic.
+              This ability to tackle problems head-on isn't just about code; it's a reflection of the resilience, determination, and
+              resourcefulness of web developers. <br /><br />4. Pioneers of User Experience: User experience is at the core of web
+              development. Developers design not just for screens, but for people. They create intuitive, accessible, and delightful user
+              interfaces. They understand that technology should be a seamless extension of human capabilities, not an obstacle. In doing
+              so, they shape how we interact with the digital world. <br />
+              <br />5. The Constant Learners: Web developers are perpetual students. In an ever-evolving industry, they embrace change as an
+              opportunity for growth. They eagerly explore new frameworks, languages, and tools. Their commitment to lifelong learning and
+              adaptability ensures they stay at the forefront of technology. <br /><br />6. Art in the Code: Web development is not just
+              science; it's art. Developers pay meticulous attention to detail, refine their craft, and strive for perfection. They
+              understand that aesthetics matter just as much as functionality. Their work demonstrates that the code can be a work of art in
+              itself. <br />7. Empowerment Through Empathy: Web developers have the power to change lives. By creating accessible websites
+              and applications, they empower individuals with disabilities to navigate the digital landscape. They recognize the importance
+              of empathy and inclusivity in their work, making the web a place where everyone can thrive. In a world that increasingly
+              revolves around the digital, web developers hold the keys to shaping our present and future. Their work has a profound impact
+              on how we communicate, collaborate, and conduct our lives. Each line of code they write, each problem they solve, and each
+              user experience they enhance contributes to a better, more connected world. So, to all the web developers out there, remember
+              this: your work is not just about coding; it's about transformation, connection, and inspiration. You are the architects of
+              the digital age, and you have the power to craft a brighter future. Continue to push the boundaries, innovate fearlessly, and
+              let your code be a beacon of inspiration for us all. The digital realm is your canvas, and you are its artists, painting a
+              future limited only by your imagination. Embrace the power of your code and the boundless potential it holds. Web developers,
+              you are the digital architects of tomorrow. Keep building, keep dreaming, and keep inspiring.
+            </p>
+          </center>
+        </div>
+      </section>
+    </div>
+
+    <div class="container"></div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h3>Contact Me</h3>
+            <p>If you have any questions, please feel free to contact me:</p>
+          </div>
+          <div class="col-md-6">
+            <h3>Follow Me</h3>
+            <p></p>
+            <ul class="list-unstyled list-inline">
+              <li class="list-inline-item">
+                <a href="https://web.facebook.com/juliefranz.imperial.7" class="text-white">Facebook</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="juliefranzlosbanos.imperial@bicol-u.edu.ph" class="text-white">Gmail</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid bg-black text-white p-2 text-center">
+        <p>&copy; 2023 JULIE FRANZ IMPERIAL. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
